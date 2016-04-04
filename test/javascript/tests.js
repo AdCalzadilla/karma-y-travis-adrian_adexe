@@ -80,10 +80,5 @@ describe("Conversión de temperaturas", function(){
          var celsius = new Celsius(23);
          expect(celsius.toFarenheit().tipo).to.equal('f');
       });
-      it("Devuelve un objeto Farenheit", function(){
-         var celsius = new Celsius(23);
-         var far = celsius.toFarenheit();
-         expect(far.constructor.name).to.equal('Farenheit');
-      });
    });
 });
